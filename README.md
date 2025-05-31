@@ -1,6 +1,6 @@
-# adxl345_driver2
+# adxl345-rs
 
-This is a hardware driver for [ADXL345] and [ADXL346] type 3-Axis
+This is a forkwith just some dependency updates of the hardware driver [adxl345_driver2] for [ADXL345] and [ADXL346] type 3-Axis
 Digital Accelerometers written in [Rust] using [embedded-hal] `I2c` and `Spi` traits.
 That means it runs on all hardware layers that implement the [embedded-hal] traits.
 
@@ -26,7 +26,7 @@ ESP32 with [esp-idf-hal]. But this crate is not restricted to these HAL layers.
 You can use `cargo add` to add the driver to your `Cargo.toml`
 
 ```sh
-cargo add adxl345_driver2
+cargo add adxl345-rs
 ```
 
 or you can manually add the driver to your `Cargo.toml`:

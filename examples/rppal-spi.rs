@@ -44,7 +44,7 @@
 //! ...
 //! ```
 
-use adxl345_driver2::{spi::Device, Adxl345Reader, Adxl345Writer};
+use adxl345_rs::{spi::Device, Adxl345Reader, Adxl345Writer};
 use anyhow::{Context, Result};
 use rppal::{
     spi::{Bus, Mode, SimpleHalSpiDevice, SlaveSelect, Spi},

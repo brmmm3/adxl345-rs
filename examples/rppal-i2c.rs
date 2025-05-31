@@ -44,7 +44,7 @@
 //! ...
 //! ```
 
-use adxl345_driver2::{i2c::Device, Adxl345Reader, Adxl345Writer};
+use adxl345_rs::{i2c::Device, Adxl345Reader, Adxl345Writer};
 use anyhow::{Context, Result};
 use rppal::{i2c::I2c, system::DeviceInfo};
 use std::{
